@@ -1,7 +1,7 @@
-# CISC2200 Spring 2024 Lab1
+# CS2 Review
 
-In this first lab assignment, we setup our **programming environment**, **modify given code**,
-and **practice submitting to autograder system**.
+This is an in-class programming exercise aimed at refreshing you on CS2 concepts,
+as well as getting you more familiar with your development environment.
 
 ## Programming Environment Setup
 
@@ -22,20 +22,14 @@ Alternatively, either:
 
 ## Programming Requirement
 
-A code skeleton is given for this lab. From your terminal (mac or WSL/Ubunto) window, you can use the following command to download it:
+A code skeleton is given for this. From your terminal (mac or WSL/Ubunto) window, you can use the following command to download it:
 
 ```bash
-git clone https://github.com/CISC2200-Spring2024/lab1.git
+git clone https://github.com/CISC2200-Fall-24-Fordham/CS2-Review.git
 ```
 
-You are asked to finish the following (i.e., the three Todo's in the IntArray.cpp), test and run the program:
-
-1. Implement the IntArray class's constructor
-2. Implement the destructor
-3. Implement the reverse member function
+Consult the `TODO` sections for what you need to implement.
 
 ## Submission
 
-Submit your program at the following link by Sep 18, 2024, midnight (11:59pm)
-
-[lab1 submission site](https://storm.cis.fordham.edu:8443/web/course/90)
+This serves as a CS2 review section, and is not due for submission.
