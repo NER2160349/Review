@@ -11,7 +11,6 @@ namespace ds {
      */
     int Rectangle::area() const {
         // TODO: Implement the area function.
-        return this->height * this->width; // REMOVE
     }
 
     /**
@@ -35,6 +34,5 @@ namespace ds {
         //      * Adding color (random color per character?)
         //      * Adding a border / empty middle
         //      * Adding a fill
-        std::cout << "Rectangle: " << this->width << "x" << this->height; // REMOVE
     }
 } // namespace ds

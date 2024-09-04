@@ -12,7 +12,6 @@ namespace ds {
     int Triangle::area() const {
         // TODO: Implement the area function.
         // Note: width and height are equal for a right triangle
-        return this->height * this->width * 0.5; // REMOVE
     }
 
     /**
@@ -36,6 +35,5 @@ namespace ds {
         //      * Adding color (random color per character?)
         //      * Adding a border / empty middle
         //      * Adding a fill
-        std::cout << "Triangle: " << this->width << "x" << this->height; // REMOVE
     }
 } // namespace ds
