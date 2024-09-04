@@ -9,7 +9,7 @@ LDFLAGS  += -fsanitize=address -fno-omit-frame-pointer
 # https://stackoverflow.com/questions/43282826/suppress-delete-non-virtual-dtor-warning-when-using-a-protected-non-virtual-dest
 CXXFLAGS += -Wno-delete-non-virtual-dtor
 
-test: Rectangle.cpp main.cpp
+test: Rectangle.cpp Triangle.cpp main.cpp
 	$(CXX) $(CXXFLAGS) $^ -o main.out
 	./main.out
 

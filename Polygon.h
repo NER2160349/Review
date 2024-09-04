@@ -11,7 +11,7 @@ class Polygon {
   public:
     void set_values(int a, int b) { width = a; height = b; }
     explicit Polygon(int width, int height): width(width), height(height) {};
-    ~Polygon() {};
+    virtual ~Polygon() {};
 
     // Pure virtual area function to be implemented by derived classes.
     virtual int area() const = 0;
@@ -28,12 +28,13 @@ class Polygon {
         return os;
     };
 
-    friend bool operator<(const Polygon& lhs, const Polygon& rhs)
+    bool operator < (const Polygon& other) const
     {
         // TODO: 
         //  * Try sorting by width or height
-        //  * Try sorting by perimeter
-        return lhs.area() < rhs.area();
+        //  * Try sorting by perimeter - might need a function for this
+        //  * What if area is the same? Should we have a tiebreaker?
+        return this->area() < other.area();
     };
 };
 

@@ -35,6 +35,6 @@ namespace ds {
         //      * Adding color (random color per character?)
         //      * Adding a border / empty middle
         //      * Adding a fill
-        std::cout << "Rectangle: " << this->width << "x" << this->height << std::endl; // REMOVE
+        std::cout << "Rectangle: " << this->width << "x" << this->height; // REMOVE
     }
 } // namespace ds
