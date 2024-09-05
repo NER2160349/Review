@@ -11,6 +11,9 @@ namespace ds {
      */
     int Rectangle::area() const {
         // TODO: Implement the area function.
+        int area = width * height;
+
+        return area;
     }
 
     /**
@@ -34,5 +37,20 @@ namespace ds {
         //      * Adding color (random color per character?)
         //      * Adding a border / empty middle
         //      * Adding a fill
+        std::cout<< width << " and " << height << std::endl;
+
+        for(int i = 1; i <= width; i++){
+        
+        for(int k = 1; k <= height; k++){
+            if(i == 1 || i == width || k == 1 || k == height)
+            {
+                std::cout << "*";
+            }
+            else{
+                std::cout << " ";
+            }
+        }
+        std::cout<< std::endl;
+    }
     }
 } // namespace ds

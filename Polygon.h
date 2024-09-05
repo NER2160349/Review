@@ -34,7 +34,13 @@ class Polygon {
         //  * Try sorting by width or height
         //  * Try sorting by perimeter - might need a function for this
         //  * What if area is the same? Should we have a tiebreaker?
-        return this->area() < other.area();
+        if(this->area() >= other.area()){
+          return false;
+        }
+        else if(this->area() < other.area()){
+          return true;
+        }
+        return 1;
     };
 };
 
